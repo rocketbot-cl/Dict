@@ -1,0 +1,243 @@
+{
+  "author": "Nicolas Liendro",
+  "description": "Module to work with dictionarys",
+  "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
+  "version": "0.1",
+  "license": "MIT",
+  "homepage": "http://rocketbot.co",
+  "linux": true,
+  "windows": true,
+  "mac": true,
+  "docker": true,
+  "name": "Dict",
+  "dependencies": {},
+  "title": {
+    "en": "Dict",
+    "es": "Dict"},
+    "icon": "",
+    "children": [
+      {
+        "en": {
+          "title": "Add element to a dictionary",
+          "description": "Add element to dictionary",
+          "title_options": null,
+          "options": null
+        },
+        "es": {
+          "title": "Añadir elemento a un diccionario",
+          "description": "Añadir elemento a un diccionario",
+          "title_options": null,
+          "options": null
+        },
+        "form": {
+          "css": "modal-lg",
+          "inputs": [
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "Diccionario",
+                "en": "Dictionary"
+              },
+              "title": {
+                "es": "Diccionario",
+                "en": "Dictionary"
+              },
+              "id": "dict",
+              "css": "col-md-12"
+            },
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "Llave",
+                "en": "Key"
+              },
+              "title": {
+                "es": "Llave",
+                "en": "Key"
+              },
+              "id": "key",
+              "css": "col-md-12"
+            },
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "Valor",
+                "en": "Value"
+              },
+              "title": {
+                "es": "Valor",
+                "en": "Value"
+              },
+              "id": "value",
+              "css": "col-md-12"
+            },
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "res",
+                "en": "res"
+              },
+              "title": {
+                "es": "Resultado",
+                "en": "Result"
+              },
+              "id": "res",
+              "css": "col-md-12"
+            }
+          ]
+        },
+        "video_youtube": "",
+        "icon": "",
+        "module": "add_value",
+        "module_name": "Dict",
+        "visible": true,
+        "options": false,
+        "father": "module",
+        "group": "scripts",
+        "linux": true,
+        "windows": true,
+        "mac": true,
+        "docker": true
+      },
+      {
+        "en": {
+          "title": "Delete element from a dictionary",
+          "description": "Delete element from a dictionary",
+          "title_options": null,
+          "options": null
+        },
+        "es": {
+          "title": "Eliminar elemento de un diccionario",
+          "description": "Eliminar elemento de un diccionario",
+          "title_options": null,
+          "options": null
+        },
+        "form": {
+          "css": "modal-lg",
+          "inputs": [
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "Diccionario",
+                "en": "Dictionary"
+              },
+              "title": {
+                "es": "Diccionario",
+                "en": "Dictionary"
+              },
+              "id": "dict",
+              "css": "col-md-12"
+            },
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "Clave",
+                "en": "Key"
+              },
+              "title": {
+                "es": "Clave",
+                "en": "Key"
+              },
+              "id": "key",
+              "css": "col-md-12"
+            },
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "res",
+                "en": "res"
+              },
+              "title": {
+                "es": "Resultado",
+                "en": "Result"
+              },
+              "id": "res",
+              "css": "col-md-12"
+            }
+          ]
+        },
+        "video_youtube": "",
+        "icon": "",
+        "module": "delete_value",
+        "module_name": "Dict",
+        "visible": true,
+        "options": false,
+        "father": "module",
+        "group": "scripts",
+        "linux": true,
+        "windows": true,
+        "mac": true,
+        "docker": true
+      },
+      {
+        "en": {
+          "title": "Search element from a dictionary",
+          "description": "Search element from a dictionary",
+          "title_options": null,
+          "options": null
+        },
+        "es": {
+          "title": "Buscar elemento de un diccionario",
+          "description": "Buscar elemento de un diccionario",
+          "title_options": null,
+          "options": null
+        },
+        "form": {
+          "css": "modal-lg",
+          "inputs": [
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "Diccionario",
+                "en": "Dictionary"
+              },
+              "title": {
+                "es": "Diccionario",
+                "en": "Dictionary"
+              },
+              "id": "dict",
+              "css": "col-md-12"
+            },
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "path/to/value",
+                "en": "path/to/value"
+              },
+              "title": {
+                "es": "Path Selector",
+                "en": "Path Selector"
+              },
+              "id": "path_selector",
+              "css": "col-md-12"
+            },
+            {
+              "type": "input",
+              "placeholder": {
+                "es": "res",
+                "en": "res"
+              },
+              "title": {
+                "es": "Resultado",
+                "en": "Result"
+              },
+              "id": "res",
+              "css": "col-md-12"
+            }
+          ]
+        },
+        "video_youtube": "",
+        "icon": "",
+        "module": "find_element",
+        "module_name": "Dict",
+        "visible": true,
+        "options": false,
+        "father": "module",
+        "group": "scripts",
+        "linux": true,
+        "windows": true,
+        "mac": true,
+        "docker": true
+      }
+    ]
+  }
